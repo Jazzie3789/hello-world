@@ -1,0 +1,26 @@
+
+.container {
+  max-width:960px;
+  margin: 0 auto;
+}
+
+div {
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+}
+
+nav {
+border-color: inherit;
+border-width: thick;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+footer {
+  margin-left: auto;
+  padding-top;
+  border-radius:
+}
