@@ -2,25 +2,58 @@
 .container {
   max-width:960px;
   margin: 0 auto;
+  background-color: lightcyan;
+
+
 }
 
-div {
+.div {
   box-sizing: border-box;
   width: 300px;
   height: 200px;
+  justify-content: space-around;
+  font-family: "Georgia", Times, cursive;
+
 }
 
-nav {
-border-color: inherit;
-border-width: thick;
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 100vw;
+
+
 }
 
-html {
+.body {
+  background-color: aquamarine;
+}
+
+
+.header {
+  margin-top: 1.3em;
+}
+
+.navigation > ul > li {
+  display: inline;
+  list-style: none;
+}
+
+
+.html {
   box-sizing: border-box;
 }
 
-footer {
+.footer {
   margin-left: auto;
   padding-top;
-  border-radius:
+  font-family: "Georgia", Georgia, fantasy;
+  border-style: solid;
+  border-width: 2px;
+
+}
+
+.h1 {
+  color: red;
 }
