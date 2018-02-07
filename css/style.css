@@ -5,6 +5,7 @@
   background-color: lightcyan;
 
 
+
 }
 
 .div {
@@ -16,20 +17,31 @@
 
 }
 
+.image  {
+  border-radius: 60px;
+  max-width: 300%;
+  height: 100%;
+  opacity: 0.5;
+
+}
+
+
 .navigation {
   position: fixed;
   top: 0;
   left: 0;
   height: 1.3em;
   width: 100vw;
+border-style: solid ;
 
 
 }
 
 .body {
   background-color: aquamarine;
-}
 
+
+}
 
 .header {
   margin-top: 1.3em;
