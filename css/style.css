@@ -9,6 +9,11 @@
 
 }
 
+.li a {
+  display: block;
+  width: 60px
+}
+
 .div {
   box-sizing: border-box;
   width: 300px;
