@@ -7,8 +7,8 @@ var roundCounter = 0;
 
 var gameRound = function(){
   var userChoice = prompt("Choose Rock, Paper, or Scissors by typing 'R', 'P', or 'S'");
-  var computerChoice = "R";
   var rng = Math.random();
+  var computerChoice = "R";
 
   if(rng > 0.66) {
     computerChoice = "P";

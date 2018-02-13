@@ -111,5 +111,8 @@
 
 #greeting {
   background-color: darkblue;
+  font: arial, red;
+  font-style: italic;
+  color: red;
 
 }
