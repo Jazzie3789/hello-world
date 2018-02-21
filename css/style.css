@@ -9,10 +9,6 @@
 
 }
 
-.li a {
-  display: block;
-  width: 60px
-}
 
 .div {
   box-sizing: border-box;
@@ -23,13 +19,43 @@
 
 }
 
+.button {
+  background-color: rgb(150, 230, 150);
+  border: ridge;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+
+
+}
+
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.button:hover {
+  background-color: rgb(70, 100, 200);
+  color: white;
+}
+
 .image  {
-  border-radius: 5000px;
-  max-height: 100%;
+  border-radius: 500px;
   display: block;
-  width: 100%;
-  height: auto;
-  opacity: 1
+  width: 200px, fixed;
+  height: 500px, fixed;
+  opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
 
@@ -72,6 +98,9 @@
   height: 1.3em;
   width: 100vw;
 
+}
+
+.navigation a {
 
 
 }
@@ -110,9 +139,23 @@
 }
 
 #greeting {
-  background-color: darkblue;
-  font: arial, red;
-  font-style: italic;
+  background-color: blue;
+  font: arial;
+  font-style: oblique;
+  color: black;
+
+}
+
+.highlighted {
   color: red;
+  opacity: .7;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#hidden-blurb {
+  display: none;
+}
+
+#profile-pic {
 
 }

@@ -1,18 +1,19 @@
 
 
-
+var computerChoice = "P";
+var userChoice = prompt("Choose Rock, Paper, or Scissors by typing 'R', 'P', or 'S' ");
 var userWins = "You win! Congrats!";
 var computerWins = "The computer wins!";
 var roundCounter = 0;
 
 var gameRound = function(){
-  var userChoice = prompt("Choose Rock, Paper, or Scissors by typing 'R', 'P', or 'S'");
+//  var userChoice = prompt("Choose Rock, Paper, or Scissors by typing 'R', 'P', or 'S'");
   var rng = Math.random();
-  var computerChoice = "R";
+  //var computerChoice = "R";
 
   if(rng > 0.66) {
     computerChoice = "P";
-} else if (rng > 0.33) {
+}  else if (rng > 0.33) {
     computerChoice = "S";
  }
 }
@@ -42,7 +43,7 @@ if(computerChoice !== userChoice){
 };
 
 
-while (roundCounter < 5) {
-  gameround();
+  while (roundCounter < 5) {
+    gameRound();
   roundCounter++;
-}
+ }

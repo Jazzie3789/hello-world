@@ -13,7 +13,9 @@ if(response === "Drive") {
       if(response === "Go") {
         response = prompt("You decide to try to go now and grab your keys and jacket. Before you can open your front door it rumbles under the weight of someone banging on it. Before you can ask who it is a sound like somenoe is being rammed into the door and a horrible scream full of pain pierces your ears. You inch to the side to peak out the corner of the only window that oversees your front porch and nearly scream at what you see. Your annoying neighbor, Stedmon, appears to be.....eating his wife Macy. You feel the contents of your stomach making its way to your throat and you hurriedly rush to the first floor bathroom. You make it just in time to empty the lunch you ate earlier. You dry heave for a few moments while trying to wrap your head around what you saw. You wash your mouth and face before going to the closet in the hallway where you keep your gun. You grab it out of its secret compartment with shaking hands. Should you call the [Police] or [Handle] it yourself?");
         if(response === "Police");
-        response = prompt("")
+        response = prompt("Although, you're comfortable with wielding a gun, you are not comfortable with confronting whatever it is that's going on outside. You grab your cell-phone out of your pocket and dial 911. All you get is a recorded message saying that the line is busy and to be patient for assistance. You nearly growl in frustration. Now what do you do? You definitely don't see the front door as an exit anymore. Do you go through the back door or climb out of the living room window that adjoins the porch? [BackDoor] or [Window]");
+          if(resonse === "BackDoor");
+          response = prompt("You head towards the back door and pick up an emergency bag you always keep around in the event of a severe storm. You unlock and push slowly on the back door knowing the loud creaking noise it makes. You're not sure, exactly, what's going on but you don't want to cause any, unecessary, noise.")
       }
     }
     }
