@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 
 
 <title>Choose Your Own Adventure</title>
@@ -30,11 +31,21 @@
 
 
 
+<button class="button2" type="button"> Start Adventure!</button>
 
 
 
-
-
+<script>
+function Msg1(){
+  document.getElementById('myText').innerHTML = 'Hey <strong>Thanks!</strong>';
+}
+function Msg2(){
+  document.getElementById('myText').innerHTML = 'Try <strong>message 1</strong> again...';
+}
+</script>
+<input type="button" onclick="Msg1()" value="Hallway" class="button2">
+<input type="button"  onclick="Msg2()" value="Stairs">
+<p id="myText"></p>
 
 
 <script type="text/javascript" src="cyoa.js">

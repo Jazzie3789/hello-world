@@ -139,10 +139,13 @@
 }
 
 #greeting {
-  background-color: blue;
+  background-color: rgb(30, 144, 255);
   font: arial;
-  font-style: oblique;
+  font-style: normal;
   color: black;
+  font-size: 20px;
+  font-weight: bold;
+
 
 }
 
@@ -157,5 +160,29 @@
 }
 
 #profile-pic {
+
+}
+
+.button2 {
+  border-radius: 30px 30px 40px 40px;
+  border-style: solid;
+  width: 250px;
+  background-color: red;
+  color: black;
+  transition-duration: 0.5s;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+
+.button2:hover{
+  background-color: purple;
+  color: white;
+}
+
+.iframe {
+  border-radius: 40px;
+
 
 }
