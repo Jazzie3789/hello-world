@@ -93,14 +93,16 @@
 
 .navigation {
   position: fixed;
-  top: 0;
+  top: 20px;
   left: 0;
   height: 1.3em;
   width: 100vw;
 
+
 }
 
 .navigation a {
+
 
 
 }
@@ -111,6 +113,7 @@
 
 }
 
+
 .header {
   margin-top: 1.3em;
 }
@@ -118,6 +121,8 @@
 .navigation > ul > li {
   display: inline;
   list-style: none;
+
+
 }
 
 
@@ -184,5 +189,73 @@
 .iframe {
   border-radius: 40px;
 
+
+}
+
+.hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.dropbtn {
+background-color: rgb(150, 250, 150);
+color: black;
+border: none;
+cursor: pointer;
+border: ridge;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 20px;
+font-size: 16px;
+box-shadow: 0 9px #999;
+
+}
+
+.dropdown:hover {
+display: block;
+background-color: lightblue;
+
+}
+
+.dropdown {
+  position: relative;
+  display: grid;
+
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgb(17, 84, 43);
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+z-index: 1;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1b3}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 
 }
