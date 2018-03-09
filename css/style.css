@@ -2,11 +2,17 @@
 .container {
   max-width:960px;
   margin: 0 auto;
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   position: relative;
   width: 50%;
-
-
+  background-image: url("http://www.davidmalin.com/fujii/image/CMa_www.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  }
 }
 
 
@@ -21,7 +27,7 @@
 
 .button {
   background-color: rgb(150, 230, 150);
-  border: ridge;
+  border: solid;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -93,13 +99,22 @@
 
 .navigation {
   position: fixed;
-  top: 20px;
-  left: 0;
-  height: 1.3em;
+  top: 10px;
+  left: 200px;
+  align-items: center;
   width: 100vw;
+  padding: 30px;
 
 
 }
+
+.navigation li {
+  margin: 0.5%;
+
+
+}
+
+
 
 .navigation a {
 
@@ -121,7 +136,6 @@
 .navigation > ul > li {
   display: inline;
   list-style: none;
-
 
 }
 
@@ -216,6 +230,7 @@ font-size: 16px;
 border-radius: 20px;
 font-size: 16px;
 box-shadow: 0 9px #999;
+
 
 }
 
