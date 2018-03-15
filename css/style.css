@@ -16,6 +16,16 @@
 }
 
 
+.container2 {
+  max-width:960px;
+  margin: 0 auto;
+  background-color: lightcyan;
+  position: relative;
+  width: 50%;
+
+}
+
+
 .div {
   box-sizing: border-box;
   width: 300px;
@@ -95,6 +105,10 @@
 
 }
 
+.h2-1 {
+  color: rgb(10, 50, 230);
+
+}
 
 
 .navigation {
@@ -136,6 +150,7 @@
 .navigation > ul > li {
   display: inline;
   list-style: none;
+
 
 }
 
@@ -216,6 +231,15 @@
   border-width: 1px;
 }
 
+.home-list {
+  display: inline-block;
+  border-radius: 10px;
+  /* background-color: rgb(48, 129, 232); */
+  font-size: 20px;
+  color: white;
+
+}
+
 .dropbtn {
 background-color: rgb(150, 250, 150);
 color: black;
@@ -243,6 +267,7 @@ background-color: lightblue;
 .dropdown {
   position: relative;
   display: grid;
+  max-width: 15px;
 
 }
 
