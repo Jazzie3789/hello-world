@@ -25,6 +25,12 @@
 
 }
 
+.container3 {
+background-color: lightcyan;
+
+
+}
+
 
 .div {
   box-sizing: border-box;
@@ -132,7 +138,10 @@
 
 .navigation a {
 
+}
 
+.navigation-blog {
+display:table-column;
 
 }
 
