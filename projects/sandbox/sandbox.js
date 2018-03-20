@@ -24,5 +24,3 @@ $('ol li').fadeIn() // fade in a set of matched elements over setTimeout(functio
 $('p .comments')fadeOut() //fade out as a set of matched elements over setTimeout(function () {
   [object Object]
 }, 10);
-
-$('#change-me').animate("font-size", "200%") // animate a CSS property of your choosing!
