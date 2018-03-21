@@ -6,14 +6,14 @@
 
 
 
-var response = prompt("You walk into an old decrepit house. The plaster is falling off of the wall and there is an unusual stench that permeats the air. There is a hallway in front of you and stairs to your right. Tpe 'hallway' to go down the hallway, type 'stairs' to go up the stairs");
+var response = prompt("You walk into an old decrepit house. The plaster is falling off of the wall and there is an unusual stench that permeats the air. There is a hallway in front of you and stairs to your right. Type 'hallway' to go down the hallway, type 'stairs' to go up the stairs");
 
 if(response === "hallway") {
-  response = prompt("You inch down the hallway, aware of the hollow sound of your footsteps. The silence is so pervasive you can hear a spider scrambling on te wall beside you. You soon come across a door to your left and right. Type 'left' to go into the left door, type '1right' to go into the right door");
+  response = prompt("You inch down the hallway, aware of the hollow sound of your footsteps. The silence is so pervasive you can hear a spider scrambling on the wall beside you. You soon come across a door to your left and right. Type 'left' to go into the left door, type '1right' to go into the right door");
   if(response === "left") {
     response = prompt("You turn the knob on the left door. You do it slowly, as you expect it to creak but you are surprised when it swings open, soundlessly. The room is bare, save for an antique crib in the corner. There is a baby blanket on the floor next to the crib and you creep closer to look at it. The blanket looks white but seems to be stained with a dark substance. Your eyes flit to the crib and notice that it, also, is covered in the dark substance. You begin to shiver in revulsion when you realize that the substance you are looking at is blood. You turn and bolt from the room seeking an exit, immediately. You intend to bolt back down the hallway but you see a woman in tattered clothes leaning against the wall. If you approach the woman type 'approach', if you run further down the hall type 'run', if you decide to go in the door on the right type '2right'");
       if(response === "approach") {
-        response = prompt("Although, you are shaking and your heart is beating furiously against your rib-cage you stride purposely towards the woman. She looks up as she hears your footsteps and you are frozen solid by the milky whites of her eyes. Your mouth opens in a soundless scream and the woman begans to stagger slowly towards you. Just as you finally begin to mobilize the woman reaches for you with a load moan. To push her away type 'push', to side-step her and run back towards the door type 'door'");
+        response = prompt("Although, you are shaking and your heart is beating furiously against your rib-cage you stride purposely towards the woman. She looks up as she hears your footsteps and you are frozen solid by the milky whites of her eyes. Your mouth opens in a soundless scream and the woman begins to stagger slowly towards you. Just as you, finally, begin to mobilize the woman reaches for you with a load moan. To push her away type 'push', to side-step her and run back towards the door type 'door'");
         if(response === "push") {
             response = prompt("Your hands connect with the woman's shoulders and you groan in disgust when you feel how thin and mushy her body is, not to mention the horrid stench. In the split second that you shove her she turns her head sharply and bites down into your wrist. You scream in pain and rip your arm away, tearing your flesh."); {
             alert("You have now been infected and have only 2 hours before turning into a zombie.");
@@ -34,7 +34,7 @@ if(response === "hallway") {
                 }
               }
               if (response === "kitchen") {
-                response = prompt("You quickly run into the kitchen and search around frantically. You are absolutely dismayed to find that there are no silverware at all, meaning no knives. All the cupboard are board and there is only a round wooden table in the room with no chairs. You have nothing to defend yourself with."); {
+                response = prompt("You quickly run into the kitchen and search around frantically. You are absolutely dismayed to find that there are no silverware at all, meaning no knives. All the cupboards are bare and there is only a round wooden table in the room with no chairs. You have nothing to defend yourself with."); {
                   alert("You Have Reached An End");
             }
           }
