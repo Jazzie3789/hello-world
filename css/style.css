@@ -234,11 +234,13 @@ display:table-column;
 .hr {
   display: block;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
-  border-style: inset;
+  border-style: double;
   border-width: 1px;
+  color: white;
+
 }
 
 .home-list {
@@ -308,4 +310,30 @@ z-index: 1;
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 
+}
+
+
+
+.rps {
+  background-image: url("https://d3gqasl9vmjfd8.cloudfront.net/533a587d-ce87-4117-8b7d-6dc9c53a9a36.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.rps-div {
+  animation: droptocenter;
+  animation-duration: 7s infinite;
+  position: relative;
+  text-align: center;
+  top: 300px;
+  color: yellow;
+  font-size: 30px;
+}
+
+@keyframes droptocenter {
+  from {top: 0px;}
+  to {bottom: 200px;}
 }
