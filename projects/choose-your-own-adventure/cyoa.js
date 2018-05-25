@@ -4,8 +4,6 @@
 
 
 
-
-
 var response = prompt("You walk into an old decrepit house. The plaster is falling off of the wall and there is an unusual stench that permeats the air. There is a hallway in front of you and stairs to your right. Type 'hallway' to go down the hallway, type 'stairs' to go up the stairs");
 
 if(response === "hallway") {
